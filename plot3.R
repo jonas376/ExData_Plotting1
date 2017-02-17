@@ -31,7 +31,7 @@ if(!file.exists("./Course4Project1/household_power_consumption.txt")){
 path <- file.path("./Course4Project1")
 
 
-## Read file
+## Read file - Only selected rows Feb 1 and Feb 2 2007 - finding the exact rows was done separately in a database
 
 selectedRows <- read.table(file.path(path, 
                                      
